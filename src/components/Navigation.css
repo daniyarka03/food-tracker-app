@@ -1,0 +1,28 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .nav-link {
+    flex: 1;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .nav-link.active {
+    background-color: #e67e22;
+    color: white;
+  }
+  
+  .nav-link:hover:not(.active) {
+    background-color: #eee;
+  }

@@ -1,0 +1,101 @@
+.weight-tracker {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weight-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .weight-header h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .toggle-form-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .toggle-form-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .weight-form {
+    margin-bottom: 15px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+  }
+  
+  .weight-form .form-group {
+    flex: 1;
+  }
+  
+  .save-weight-button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    height: 40px;
+  }
+  
+  .current-weight {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+  }
+  
+  .current-weight p {
+    margin: 0;
+  }
+  
+  .weight-history {
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+  }
+  
+  .weight-history-label {
+    margin: 0 0 10px 0;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .weight-entries {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .weight-entry {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .weight-date {
+    color: #777;
+  }
+  
+  .weight-value {
+    font-weight: 500;
+  }

@@ -1,0 +1,41 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.app-header h1 {
+  color: #e67e22;
+  margin: 0;
+}
+
+main {
+  margin-bottom: 40px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .app {
+    padding: 10px;
+  }
+
+  .form-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .meal-nutrients,
+  .daily-nutrients {
+    grid-template-columns: 1fr 1fr;
+  }
+}
